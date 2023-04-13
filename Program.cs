@@ -34,12 +34,21 @@
 // }
 
 
-Console.WriteLine("Введите число для проверки на четность: ");
-int a = int.Parse(Console.ReadLine());
+// Console.WriteLine("Введите число для проверки на четность: ");
+// int a = int.Parse(Console.ReadLine());
 
-if (a % 2 == 0){
-  System.Console.WriteLine("Число является четным");
-}
-else {
-  System.Console.WriteLine("Число не является четным");
-}
+// if (a % 2 == 0){
+//   System.Console.WriteLine("Число является четным");
+// }
+// else {
+//   System.Console.WriteLine("Число не является четным");
+// }
+
+
+Console.WriteLine("Введите N: ");
+int s = int.Parse(Console.ReadLine());
+
+for (int i = 1; i <= s ; i++ )
+  if (i % 2 == 0){
+    System.Console.Write(i + " ");
+  }
